@@ -22,4 +22,13 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 listint_t *swap_node(listint_t *node, listint_t **list);
 
-#endif
+/* 2-selection_sort.c */
+void selection_sort(int *array, size_t size);
+
+/* 3-quick_sort.c */
+void quick_sort(int *array, size_t size);
+
+
+
+
+#endif /* SORT_H */
