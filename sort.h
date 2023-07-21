@@ -28,7 +28,14 @@ void selection_sort(int *array, size_t size);
 /* 3-quick_sort.c */
 void quick_sort(int *array, size_t size);
 
+/* 100-shell_sort.c */
+void swap(int *array, int item1, int item2);
+void shell_sort(int *array, size_t size);
 
+/* 101-cocktail_sort_list.c */
+void swap1(listint_t **list, listint_t *head, listint_t *aux);
+void swap1(listint_t **list, listint_t *head, listint_t *aux);
+void cocktail_sort_list(listint_t **list);
 
 
 #endif /* SORT_H */
