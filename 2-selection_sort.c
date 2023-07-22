@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
- * swap - Swaps two integers using pointers
+ * swap_two_ints - Swaps two integers using pointers
  *
  * @a: Pointer to the first integer
  * @b: Pointer to the second integer
  */
-void swap(int *a, int *b)
+void swap_two_ints(int *a, int *b)
 {
 	int temp = *a;
 	*a = *b;
@@ -37,7 +37,7 @@ void selection_sort(int *array, size_t size)
 
 		if (min_idx != i)
 		{
-			swap(&array[i], &array[min_idx]);
+			swap_two_ints(&array[i], &array[min_idx]);
 			print_array(array, size);
 		}
 	}
