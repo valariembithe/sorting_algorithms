@@ -24,9 +24,14 @@ listint_t *swap_node(listint_t *node, listint_t **list);
 
 /* 2-selection_sort.c */
 void selection_sort(int *array, size_t size);
+void swap_two_ints(int *a, int *b);
+
 
 /* 3-quick_sort.c */
 void quick_sort(int *array, size_t size);
+void swap_int(int *a, int *b);
+int lomuto_partition(int *array, int low, int high, size_t size);
+void quick_sort_recursive(int *array, int low, int high, size_t size);
 
 /* 100-shell_sort.c */
 void swap(int *array, int item1, int item2);
