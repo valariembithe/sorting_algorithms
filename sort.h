@@ -58,4 +58,11 @@ void check_tree(int *array, size_t size_init, size_t size, size_t i);
 void radix_sort(int *array, size_t size);
 int max_val(int *array, size_t size);
 
+/* 106-bitonic_sort.c */
+void _swap(int *array, int i, int j);
+void bitonic_compare(int *array, size_t size, int dir);
+void bitonic_merge(int *array, size_t size, int dir);
+void bitonic_sort(int *array, size_t size);
+
+
 #endif /* SORT_H */
