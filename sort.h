@@ -64,5 +64,11 @@ void bitonic_compare(int *array, size_t size, int dir);
 void bitonic_merge(int *array, size_t size, int dir);
 void bitonic_sort(int *array, size_t size);
 
+/* 107-quick_sort_hoare.c */
+void quick_sort_hoare(int *array, size_t size);
+void quicksort_hoare_recursive(int *array, ssize_t low, ssize_t high);
+ssize_t hoare_partition(int *array, ssize_t low, ssize_t high);
+void swap_(int *a, int *b);
+
 
 #endif /* SORT_H */
